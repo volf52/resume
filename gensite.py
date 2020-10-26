@@ -1,7 +1,6 @@
 import json
 
 from pathlib import Path
-from css_html_js_minify import html_minify
 from jinja2 import (
     Environment,
     FileSystemLoader,
