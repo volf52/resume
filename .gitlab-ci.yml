@@ -19,9 +19,11 @@ before_script:
 pages:
   script:
     - python gensite.py
-    - ls -a dist
+    - mkdir public
+    - mv dist/* public
+    - ls -a public
   artifacts:
     paths:
-      - dist
+      - public
   only:
     - main
