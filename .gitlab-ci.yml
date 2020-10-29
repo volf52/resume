@@ -19,6 +19,7 @@ before_script:
 pages:
   script:
     - python gensite.py
+    - ls -a dist
   artifacts:
     paths:
       - dist
