@@ -16,10 +16,6 @@ before_script:
   - source venv/bin/activate
   - python -m pip install -r requirements.txt
 
-test:
-  script:
-    - python -m pytest
-
 pages:
   script:
     - python gensite.py
